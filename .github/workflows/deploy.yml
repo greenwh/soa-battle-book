@@ -1,4 +1,4 @@
-name: Deploy Battle Book to GitHub Pages
+name: Deploy SOA Battle Book to GitHub Pages
 
 on:
   push:
