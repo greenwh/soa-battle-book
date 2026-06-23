@@ -1,0 +1,180 @@
+/* SOA Battle Book — brand tokens (Seeds of Anarchy phoenix theme) */
+
+:root {
+  /* Brand colors — apply to both light and dark modes */
+  --vp-c-brand-1: #ff8800;          /* phoenix orange */
+  --vp-c-brand-2: #e67000;
+  --vp-c-brand-3: #cc5500;
+  --vp-c-brand-soft: rgba(255, 136, 0, 0.14);
+
+  /* Typography — Georgia serif headings (carry from SvS guide) */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Callout palette — info/tip/warn/danger */
+  --bb-callout-info: #ff8800;
+  --bb-callout-info-bg: rgba(255, 136, 0, 0.10);
+  --bb-callout-tip: #5ce88a;
+  --bb-callout-tip-bg: rgba(92, 232, 138, 0.10);
+  --bb-callout-warn: #f5b342;
+  --bb-callout-warn-bg: rgba(245, 179, 66, 0.10);
+  --bb-callout-danger: #ff6b6b;
+  --bb-callout-danger-bg: rgba(255, 107, 107, 0.10);
+
+  /* Troop classes (game's color associations) */
+  --bb-troop-infantry: #5cc4e8;
+  --bb-troop-lancer: #ff8a5c;
+  --bb-troop-marksman: #5ce88a;
+
+  /* Tier badge palette (S-tier brightest, F-tier darkest) */
+  --bb-tier-s: #f5b342;
+  --bb-tier-a: #5ce88a;
+  --bb-tier-b: #5cc4e8;
+  --bb-tier-c: #a8b3c7;
+  --bb-tier-d: #e08a5c;
+  --bb-tier-f: #ff6b6b;
+
+  /* Event-frequency badge palette */
+  --bb-freq-daily: #5ce88a;
+  --bb-freq-weekly: #5cc4e8;
+  --bb-freq-biweekly: #f5b342;
+  --bb-freq-monthly: #c98ce8;
+  --bb-freq-yearly: #ff8a5c;
+  --bb-freq-other: #a8b3c7;
+}
+
+/*
+ * Dark canvas tokens. These MUST live under .dark (not :root) so VitePress's
+ * own .dark token cascade — including --vp-button-*-text — is the active set
+ * and buttons get readable contrast. Putting them at :root broke alt-button
+ * legibility because VitePress's light-mode button text tokens were still in
+ * effect even though the canvas was dark.
+ */
+.dark {
+  --vp-c-bg: #0d0f14;
+  --vp-c-bg-alt: #131720;
+  --vp-c-bg-soft: #1a1f2b;
+  --vp-c-bg-elv: #1f2533;
+
+  --vp-c-text-1: #e8edf5;
+  --vp-c-text-2: #a8b3c7;
+  --vp-c-text-3: #6b7689;
+
+  --vp-c-divider: #242a38;
+  --vp-c-border: #2c3344;
+}
+
+/* Headings use Georgia serif to match SvS guide */
+h1, h2, h3, h4, h5, h6,
+.VPHero .name,
+.VPHero .text {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  letter-spacing: -0.01em;
+}
+
+/* Color for h1 accent — brand token works in both modes */
+h1 {
+  color: var(--vp-c-brand-1);
+}
+
+/* Custom callout colors used throughout content */
+.tip-block {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: rgba(255, 136, 0, 0.08);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+.warn-block {
+  border-left: 4px solid #f5b342;
+  background: rgba(245, 179, 66, 0.08);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+.danger-block {
+  border-left: 4px solid #ff6b6b;
+  background: rgba(255, 107, 107, 0.08);
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+/* Hero image: expand from VitePress default to better show the 16:9 bear.JPG */
+.VPHero .image-container {
+  overflow: visible !important;
+}
+
+.VPHero .image-bg {
+  display: none !important;
+}
+
+.VPHero .image-src {
+  max-width: 320px !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px rgba(255, 136, 0, 0.18);
+}
+
+@media (min-width: 640px) {
+  .VPHero .image-src {
+    max-width: 460px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-src {
+    max-width: 560px !important;
+  }
+}
+
+/* Hub link buttons (actions 3–6) — smaller and color-coded */
+.VPHero .actions .action:nth-child(n+3) .VPButton {
+  font-size: 0.72rem;
+  padding: 3px 12px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.VPHero .actions .action:nth-child(3) .VPButton {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+.VPHero .actions .action:nth-child(3) .VPButton:hover {
+  background-color: var(--vp-c-brand-soft);
+}
+
+.VPHero .actions .action:nth-child(4) .VPButton {
+  border-color: var(--bb-callout-danger);
+  color: var(--bb-callout-danger);
+}
+.VPHero .actions .action:nth-child(4) .VPButton:hover {
+  background-color: var(--bb-callout-danger-bg);
+}
+
+.VPHero .actions .action:nth-child(5) .VPButton {
+  border-color: var(--bb-callout-warn);
+  color: var(--bb-callout-warn);
+}
+.VPHero .actions .action:nth-child(5) .VPButton:hover {
+  background-color: var(--bb-callout-warn-bg);
+}
+
+.VPHero .actions .action:nth-child(6) .VPButton {
+  border-color: var(--bb-freq-monthly);
+  color: var(--bb-freq-monthly);
+}
+.VPHero .actions .action:nth-child(6) .VPButton:hover {
+  background-color: rgba(201, 140, 232, 0.10);
+}
+
+/* Tighten table padding for mobile */
+@media (max-width: 640px) {
+  .vp-doc table {
+    font-size: 0.875rem;
+  }
+  .vp-doc th, .vp-doc td {
+    padding: 0.5rem 0.625rem;
+  }
+}
