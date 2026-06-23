@@ -66,7 +66,7 @@ Every page follows the same structure: at-a-glance summary, mechanics, day-by-da
 
 - **Not a recruitment site.** No alliance promotion, no faction politics.
 - **Not a news site.** Patches and meta shifts get baked into the relevant guides; we don't run a news feed.
-- **Not authoritative.** This is a community reference. The game updates frequently — when something looks wrong, [open an issue on GitHub](https://github.com/greenwh/soa-battle-book/issues) or message Bill in-game.
+- **Not authoritative.** This is a community reference. The game updates frequently — when something looks wrong, [open an issue on GitHub](https://github.com/greenwh/soa-battle-book/issues).
 
 ## Recently updated
 

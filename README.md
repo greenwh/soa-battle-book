@@ -109,7 +109,7 @@ Found an error or want a new guide? [Open an issue](https://github.com/greenwh/s
 
 ## Credits
 
-Content authored by Bill (alliance leader, Seeds of Anarchy) with research and writing assistance from Claude. Sources cross-referenced against community guides at wostools.net, whiteoutsurvival.wiki, allclash.com, OneChilledGamer, and BlueStacks, plus official Helpshift documentation.
+Content authored by Seeds of Anarchy members with research and writing assistance from Claude. Sources cross-referenced against community guides at wostools.net, whiteoutsurvival.wiki, allclash.com, OneChilledGamer, and BlueStacks, plus official Helpshift documentation.
 
 The game is owned by Century Games. This is an independent fan reference site — not affiliated with the developers.
 

@@ -243,4 +243,4 @@ This section will be updated as new content lands. Planned additions in rough pr
 
 ---
 
-*See an error or want a guide written? Open an issue on [GitHub](https://github.com/greenwh/soa-battle-book/issues) or message Bill in-game.*
+*See an error or want a guide written? Open an issue on [GitHub](https://github.com/greenwh/soa-battle-book/issues).*
