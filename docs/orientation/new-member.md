@@ -36,7 +36,7 @@ That's it — one event, any event. You don't need to be the strongest player or
 ## Your First Week
 
 1. **Reach Furnace Lv. 16** — this unlocks cross-server events and most alliance activities
-2. **Teleport to the alliance hive** — use an Advanced or Territory Teleporter to move to alliance territory. Once you're in the hive, you're free to move anywhere within alliance territory. The spots closest to the [Bear Trap](/events/bear-trap) are reserved for our most active players — Bear Trap runs every other day at 1300 UTC, and proximity matters for response time.
+2. **Teleport to the alliance hive** — use an Advanced or Territory Teleporter to move to alliance territory. Once you're in the hive, you're free to move anywhere within alliance territory. The spots closest to the [Bear Trap](/events/bear-trap) are reserved for our most active players — proximity matters for response time.
 3. **Start your daily routine** — log in for your free chest, send alliance helps, gather resources, and join beast hunts when you see them
 4. **Introduce yourself in alliance chat** — even a quick "hi, I'm new" goes a long way. We have members from many countries and languages, so keep messages short and clear.
 5. **Browse the [Event Guides](/events/)** — events rotate frequently and each one works differently. Skim the guides for whichever events are coming up so you know what to expect.
