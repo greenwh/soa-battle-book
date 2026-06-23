@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-19 23:15:55 UTC
-**Last commit:** `f236512`
+**Last updated:** 2026-06-23 22:44:15 UTC
+**Last commit:** `486425c`
 
 ## Deployed Pages
 
@@ -272,14 +272,5 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 ## Recent Deployment History
 
 ```
-f236512 Update CLAUDE.md: combat dir structure, MANIFEST path, cleanUrls gotcha
-1405dda chore: regenerate MANIFEST.md [skip manifest]
-8b7b1e4 Fix manifest link: use full URL to avoid VitePress cleanUrls stripping .md extension
-dde8850 chore: regenerate MANIFEST.md [skip manifest]
-a6c963b Fix homepage Recently Updated section: add Combat Reports bullet, move Site Manifest before changelog line
-06477d2 chore: regenerate MANIFEST.md [skip manifest]
-a3b4b34 Add Combat reports section + sync infrastructure (MANIFEST auto-regen)
-56d48e8 Update CLAUDE.md: add dawn-academy to directory structure, document MANIFEST.md workflow
-cf2c090 Add Dawn Academy section + Gen 3 heroes (Mia, Greg, Logan); add MANIFEST sync mechanism
-a0ccb6e Apply SVS battle-day corrections from May 2026 observation (Spec v2)
+486425c feat: initialize SOA Battle Book from Ice Kings template
 ```
