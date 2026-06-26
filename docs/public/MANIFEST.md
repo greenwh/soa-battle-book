@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-23 22:49:28 UTC
-**Last commit:** `c160a3b`
+**Last updated:** 2026-06-26 20:42:45 UTC
+**Last commit:** `9063ea4`
 
 ## Deployed Pages
 
@@ -272,6 +272,10 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 ## Recent Deployment History
 
 ```
+9063ea4 fix: regenerate all PNGs with SOA phoenix wings icon [skip manifest]
+c5f5fbf fix: remove Bear Trap time from orientation (subject to change) [skip manifest]
+b036390 chore: rename deploy workflow [skip manifest]
+fa8824c chore: regenerate MANIFEST.md [skip manifest]
 c160a3b fix: remove personal name references
 68f57d2 chore: regenerate MANIFEST.md [skip manifest]
 486425c feat: initialize SOA Battle Book from Ice Kings template
