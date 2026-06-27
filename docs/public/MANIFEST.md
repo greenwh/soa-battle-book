@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-27 02:25:07 UTC
-**Last commit:** `265c8bb`
+**Last updated:** 2026-06-27 02:25:17 UTC
+**Last commit:** `00d34a4`
 
 ## Deployed Pages
 
@@ -271,12 +271,12 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 
     lastUpdatedText: 'Last updated',
   },
-})
 ```
 
 ## Recent Deployment History
 
 ```
+00d34a4 Add Server Timeline (reference) + Hero Roster (strategy/heroes) pages, sidebar + hub links
 265c8bb chore: regenerate MANIFEST.md [skip manifest]
 848eb53 Add downloadable FC1→FC10 full cost CSV + link on fire-crystal page
 9063ea4 fix: regenerate all PNGs with SOA phoenix wings icon [skip manifest]
