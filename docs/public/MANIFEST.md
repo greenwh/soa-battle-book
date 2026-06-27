@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-27 02:25:17 UTC
-**Last commit:** `00d34a4`
+**Last updated:** 2026-06-27 16:20:23 UTC
+**Last commit:** `cb7d89c`
 
 ## Deployed Pages
 
@@ -62,6 +62,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 - `/strategy/dawn-academy/trek-guide` — trek-guide.md
 - `/strategy/fire-crystal` — fire-crystal.md
 - `/strategy/furnace` — furnace.md
+- `/strategy/gear/chief-charms` — chief-charms.md
 - `/strategy/gear/chief-gear-costs` — chief-gear-costs.md
 - `/strategy/gear/chief-gear` — chief-gear.md
 - `/strategy/gear/hero-gear` — hero-gear.md
@@ -86,6 +87,9 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 - `/strategy/pets/combat-pets` — combat-pets.md
 - `/strategy/pets/` — index.md
 - `/strategy/pets/upgrade-costs` — upgrade-costs.md
+- `/strategy/power-checklist` — power-checklist.md
+- `/strategy/power-priority` — power-priority.md
+- `/strategy/research` — research.md
 
 ### `/troops/`
 
@@ -134,6 +138,9 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
           text: 'Strategy',
           items: [
             { text: 'Strategy Hub', link: '/strategy/' },
+            { text: 'Power Priority', link: '/strategy/power-priority' },
+            { text: 'Power Audit Checklist', link: '/strategy/power-checklist' },
+            { text: 'Research (Technology)', link: '/strategy/research' },
             { text: 'Furnace 20→30', link: '/strategy/furnace' },
             { text: 'Fire Crystal (FC1→FC10)', link: '/strategy/fire-crystal' },
             {
@@ -172,6 +179,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
                 { text: 'Mythic Transfer', link: '/strategy/gear/mythic-transfer' },
                 { text: 'Chief Gear', link: '/strategy/gear/chief-gear' },
                 { text: 'Chief Gear Costs', link: '/strategy/gear/chief-gear-costs' },
+                { text: 'Chief Charms', link: '/strategy/gear/chief-charms' },
               ],
             },
             {
@@ -276,6 +284,9 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 ## Recent Deployment History
 
 ```
+cb7d89c Add Power strategy section: Power Priority, Audit Checklist, Research, Chief Charms
+e9aa015 Update CLAUDE.md directory structure: add roster + server-timeline
+cff5065 chore: regenerate MANIFEST.md [skip manifest]
 00d34a4 Add Server Timeline (reference) + Hero Roster (strategy/heroes) pages, sidebar + hub links
 265c8bb chore: regenerate MANIFEST.md [skip manifest]
 848eb53 Add downloadable FC1→FC10 full cost CSV + link on fire-crystal page
@@ -283,7 +294,4 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 c5f5fbf fix: remove Bear Trap time from orientation (subject to change) [skip manifest]
 b036390 chore: rename deploy workflow [skip manifest]
 fa8824c chore: regenerate MANIFEST.md [skip manifest]
-c160a3b fix: remove personal name references
-68f57d2 chore: regenerate MANIFEST.md [skip manifest]
-486425c feat: initialize SOA Battle Book from Ice Kings template
 ```
