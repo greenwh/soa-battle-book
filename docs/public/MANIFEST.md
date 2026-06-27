@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-27 16:20:23 UTC
-**Last commit:** `cb7d89c`
+**Last updated:** 2026-06-27 16:41:39 UTC
+**Last commit:** `b05b535`
 
 ## Deployed Pages
 
@@ -284,6 +284,8 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 ## Recent Deployment History
 
 ```
+b05b535 Add Power Priority, Research, and Chief Charms to Strategy Hub page
+094217d chore: regenerate MANIFEST.md [skip manifest]
 cb7d89c Add Power strategy section: Power Priority, Audit Checklist, Research, Chief Charms
 e9aa015 Update CLAUDE.md directory structure: add roster + server-timeline
 cff5065 chore: regenerate MANIFEST.md [skip manifest]
@@ -292,6 +294,4 @@ cff5065 chore: regenerate MANIFEST.md [skip manifest]
 848eb53 Add downloadable FC1→FC10 full cost CSV + link on fire-crystal page
 9063ea4 fix: regenerate all PNGs with SOA phoenix wings icon [skip manifest]
 c5f5fbf fix: remove Bear Trap time from orientation (subject to change) [skip manifest]
-b036390 chore: rename deploy workflow [skip manifest]
-fa8824c chore: regenerate MANIFEST.md [skip manifest]
 ```
