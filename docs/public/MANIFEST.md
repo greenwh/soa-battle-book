@@ -6,8 +6,8 @@ It is regenerated automatically by GitHub Actions on every push to main that tou
 Published at: `https://greenwh.github.io/soa-battle-book/MANIFEST.md`
 Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/public/MANIFEST.md`
 
-**Last updated:** 2026-06-26 20:43:34 UTC
-**Last commit:** `848eb53`
+**Last updated:** 2026-06-27 02:25:07 UTC
+**Last commit:** `265c8bb`
 
 ## Deployed Pages
 
@@ -52,6 +52,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 - `/reference/changelog` — changelog.md
 - `/reference/components-demo` — components-demo.md
 - `/reference/glossary` — glossary.md
+- `/reference/server-timeline` — server-timeline.md
 
 ### `/strategy/`
 
@@ -76,6 +77,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 - `/strategy/heroes/logan` — logan.md
 - `/strategy/heroes/mia` — mia.md
 - `/strategy/heroes/molly` — molly.md
+- `/strategy/heroes/roster` — roster.md
 - `/strategy/` — index.md
 - `/strategy/island/buildings` — buildings.md
 - `/strategy/island/decorations` — decorations.md
@@ -149,6 +151,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
               collapsed: false,
               items: [
                 { text: 'Hero Hub', link: '/strategy/heroes/' },
+                { text: 'Hero Roster', link: '/strategy/heroes/roster' },
                 { text: 'Development Roadmap', link: '/strategy/heroes/development-roadmap' },
                 { text: 'Flint', link: '/strategy/heroes/flint' },
                 { text: 'Logan', link: '/strategy/heroes/logan' },
@@ -225,6 +228,7 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
           text: 'Reference',
           items: [
             { text: 'Glossary', link: '/reference/glossary' },
+            { text: 'Server Timeline', link: '/reference/server-timeline' },
             { text: 'Changelog', link: '/reference/changelog' },
           ],
         },
@@ -267,11 +271,13 @@ Source at: `https://raw.githubusercontent.com/greenwh/soa-battle-book/main/docs/
 
     lastUpdatedText: 'Last updated',
   },
+})
 ```
 
 ## Recent Deployment History
 
 ```
+265c8bb chore: regenerate MANIFEST.md [skip manifest]
 848eb53 Add downloadable FC1→FC10 full cost CSV + link on fire-crystal page
 9063ea4 fix: regenerate all PNGs with SOA phoenix wings icon [skip manifest]
 c5f5fbf fix: remove Bear Trap time from orientation (subject to change) [skip manifest]
